@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+
+</head>
+
+<body>  
+  <div id="allItems">
+    <div>
+      <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="imagem de uma bola de cristal" class="image">
+      <h1 class="title">Vou revelar seu destino!</h1>
+      <p class="paragraph">Click em fazer pergunta para que seu destino seja revelado</p>
+    </div>
+
+    <div>
+      <input type="text" placeholder="Digite sua pergunta" class="input" id="input" />
+      <button class="button" id="send" onclick="buttonAsk()">Fazer pergunta</button>
+    </div>
+
+    <div class="response">
+      <div>
+        <h1 id="inputHere"></h1>
+      </div>
+      <h1 id="returnResponse"></h1>
+    </div>
+  </div>
+</body>
+</html>
+
+
